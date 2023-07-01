@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  dash:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dash_dash
+    command: python app.py
+    ports:
+      - "8050:8050"
