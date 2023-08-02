@@ -1,0 +1,2 @@
+ssh -i dash_web_eda_tcc.pem ec2-user@ec2-54-166-185-254.compute-1.amazonaws.com
+
